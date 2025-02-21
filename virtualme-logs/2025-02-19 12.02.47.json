@@ -1,0 +1,3774 @@
+[
+  {
+    "id": 3783,
+    "timeStamp": "2025-02-19 11:41:43.792",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/schema/nuxt.schema.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3784,
+    "timeStamp": "2025-02-19 11:41:44.041",
+    "eventType": "CreateFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/virtualme-logs/2025-02-19%2011.41.43.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3785,
+    "timeStamp": "2025-02-19 11:41:44.041",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.output",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3786,
+    "timeStamp": "2025-02-19 11:41:44.041",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.output/public",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3787,
+    "timeStamp": "2025-02-19 11:41:44.041",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3788,
+    "timeStamp": "2025-02-19 11:41:44.184",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3789,
+    "timeStamp": "2025-02-19 11:41:44.184",
+    "eventType": "DeleteFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev/index.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3790,
+    "timeStamp": "2025-02-19 11:41:44.184",
+    "eventType": "DeleteFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev/index.mjs.map",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3791,
+    "timeStamp": "2025-02-19 11:41:44.281",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/manifest/latest.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3792,
+    "timeStamp": "2025-02-19 11:41:44.281",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/manifest/meta/dev.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3793,
+    "timeStamp": "2025-02-19 11:41:44.577",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/components.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3794,
+    "timeStamp": "2025-02-19 11:41:44.577",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-og-image.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3795,
+    "timeStamp": "2025-02-19 11:41:44.577",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/tsconfig.server.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3796,
+    "timeStamp": "2025-02-19 11:41:44.577",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-config.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3797,
+    "timeStamp": "2025-02-19 11:41:44.577",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-imports.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3798,
+    "timeStamp": "2025-02-19 11:41:44.577",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-routes.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3799,
+    "timeStamp": "2025-02-19 11:41:44.577",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3800,
+    "timeStamp": "2025-02-19 11:41:44.918",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3801,
+    "timeStamp": "2025-02-19 11:41:46.572",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3802,
+    "timeStamp": "2025-02-19 11:41:48.802",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3803,
+    "timeStamp": "2025-02-19 11:41:49.694",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3804,
+    "timeStamp": "2025-02-19 11:41:50.770",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nuxt.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3805,
+    "timeStamp": "2025-02-19 11:41:51.021",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nuxt.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3806,
+    "timeStamp": "2025-02-19 11:41:51.775",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/cache/nuxt-og-image%404.1.2/_fonts/Inter-normal-400.ttf.base64",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3807,
+    "timeStamp": "2025-02-19 11:41:51.775",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/cache/nuxt-og-image%404.1.2/_fonts/Inter-normal-700.ttf.base64",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3808,
+    "timeStamp": "2025-02-19 11:41:56.060",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/tsconfig.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3809,
+    "timeStamp": "2025-02-19 11:41:56.060",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nuxt.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3810,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/app.config.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3811,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/app.config.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3812,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/components.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3813,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/imports.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3814,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/%40nuxtjs-sitemap.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3815,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-og-image.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3816,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-robots.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3817,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-schema-org.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3818,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-seo-utils.assets.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3819,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-seo-utils.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3820,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-site-config.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3821,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/app-defaults.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3822,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/build.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3823,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/builder-env.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3824,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/imports.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3825,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/layouts.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3826,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/middleware.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3827,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-nuxt.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3828,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/plugins.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3829,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/schema.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3830,
+    "timeStamp": "2025-02-19 11:41:56.790",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/vue-shim.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3831,
+    "timeStamp": "2025-02-19 11:41:57.388",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3832,
+    "timeStamp": "2025-02-19 11:41:57.513",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3833,
+    "timeStamp": "2025-02-19 11:41:57.513",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3834,
+    "timeStamp": "2025-02-19 11:41:58.041",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/server.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3835,
+    "timeStamp": "2025-02-19 11:41:58.150",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3836,
+    "timeStamp": "2025-02-19 11:41:58.150",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/server.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3837,
+    "timeStamp": "2025-02-19 11:41:58.572",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3838,
+    "timeStamp": "2025-02-19 11:41:58.930",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/schema/nuxt.schema.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3839,
+    "timeStamp": "2025-02-19 11:41:59.116",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/schema/nuxt.schema.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3840,
+    "timeStamp": "2025-02-19 11:41:59.271",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/schema/nuxt.schema.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3841,
+    "timeStamp": "2025-02-19 11:41:59.457",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.output",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3842,
+    "timeStamp": "2025-02-19 11:41:59.457",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.output/public",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3843,
+    "timeStamp": "2025-02-19 11:41:59.646",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3844,
+    "timeStamp": "2025-02-19 11:41:59.646",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/manifest/latest.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3845,
+    "timeStamp": "2025-02-19 11:41:59.646",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/manifest/meta/dev.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3846,
+    "timeStamp": "2025-02-19 11:41:59.835",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/tsconfig.server.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3847,
+    "timeStamp": "2025-02-19 11:41:59.835",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-config.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3848,
+    "timeStamp": "2025-02-19 11:41:59.835",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-imports.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3849,
+    "timeStamp": "2025-02-19 11:41:59.835",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-routes.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3850,
+    "timeStamp": "2025-02-19 11:41:59.835",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3851,
+    "timeStamp": "2025-02-19 11:42:00.523",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3852,
+    "timeStamp": "2025-02-19 11:42:02.603",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/components.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3853,
+    "timeStamp": "2025-02-19 11:42:02.603",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-og-image.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3854,
+    "timeStamp": "2025-02-19 11:42:04.229",
+    "eventType": "CreateFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev/index.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3855,
+    "timeStamp": "2025-02-19 11:42:04.229",
+    "eventType": "CreateFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev/index.mjs.map",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3856,
+    "timeStamp": "2025-02-19 11:42:05.323",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nitro.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3857,
+    "timeStamp": "2025-02-19 11:42:05.464",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nitro.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3858,
+    "timeStamp": "2025-02-19 11:42:54.299",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3859,
+    "timeStamp": "2025-02-19 11:44:05.075",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3860,
+    "timeStamp": "2025-02-19 11:44:10.183",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3861,
+    "timeStamp": "2025-02-19 11:44:26.538",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3862,
+    "timeStamp": "2025-02-19 11:44:27.145",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3863,
+    "timeStamp": "2025-02-19 11:44:28.453",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3864,
+    "timeStamp": "2025-02-19 11:44:29.018",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3865,
+    "timeStamp": "2025-02-19 11:44:30.433",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nuxt.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3866,
+    "timeStamp": "2025-02-19 11:44:30.620",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nuxt.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3867,
+    "timeStamp": "2025-02-19 11:44:31.367",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/cache/nuxt-og-image%404.1.2/_fonts/Inter-normal-400.ttf.base64",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3868,
+    "timeStamp": "2025-02-19 11:44:31.367",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/cache/nuxt-og-image%404.1.2/_fonts/Inter-normal-700.ttf.base64",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3869,
+    "timeStamp": "2025-02-19 11:44:33.192",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3870,
+    "timeStamp": "2025-02-19 11:44:35.895",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3871,
+    "timeStamp": "2025-02-19 11:44:36.176",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nuxt.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3872,
+    "timeStamp": "2025-02-19 11:44:36.176",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/tsconfig.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3873,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/app.config.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3874,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/app.config.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3875,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/components.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3876,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/imports.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3877,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/%40nuxtjs-sitemap.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3878,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-og-image.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3879,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-robots.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3880,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-schema-org.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3881,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-seo-utils.assets.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3882,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-seo-utils.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3883,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-site-config.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3884,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/app-defaults.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3885,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/build.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3886,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/builder-env.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3887,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/imports.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3888,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/layouts.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3889,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/middleware.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3890,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-nuxt.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3891,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/plugins.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3892,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/schema.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3893,
+    "timeStamp": "2025-02-19 11:44:36.816",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/vue-shim.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3894,
+    "timeStamp": "2025-02-19 11:44:37.331",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3895,
+    "timeStamp": "2025-02-19 11:44:37.456",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3896,
+    "timeStamp": "2025-02-19 11:44:37.456",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3897,
+    "timeStamp": "2025-02-19 11:44:37.984",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/server.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3898,
+    "timeStamp": "2025-02-19 11:44:38.092",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3899,
+    "timeStamp": "2025-02-19 11:44:38.092",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/server.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3900,
+    "timeStamp": "2025-02-19 11:44:38.420",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3901,
+    "timeStamp": "2025-02-19 11:44:38.935",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/schema/nuxt.schema.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3902,
+    "timeStamp": "2025-02-19 11:44:39.165",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/schema/nuxt.schema.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3903,
+    "timeStamp": "2025-02-19 11:44:39.321",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/schema/nuxt.schema.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3904,
+    "timeStamp": "2025-02-19 11:44:39.523",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.output",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3905,
+    "timeStamp": "2025-02-19 11:44:39.523",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.output/public",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3906,
+    "timeStamp": "2025-02-19 11:44:39.708",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3907,
+    "timeStamp": "2025-02-19 11:44:39.708",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/manifest/latest.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3908,
+    "timeStamp": "2025-02-19 11:44:39.708",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/manifest/meta/dev.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3909,
+    "timeStamp": "2025-02-19 11:44:39.708",
+    "eventType": "DeleteFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev/index.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3910,
+    "timeStamp": "2025-02-19 11:44:39.708",
+    "eventType": "DeleteFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev/index.mjs.map",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3911,
+    "timeStamp": "2025-02-19 11:44:39.882",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/tsconfig.server.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3912,
+    "timeStamp": "2025-02-19 11:44:39.882",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-config.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3913,
+    "timeStamp": "2025-02-19 11:44:39.882",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-imports.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3914,
+    "timeStamp": "2025-02-19 11:44:39.882",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-routes.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3915,
+    "timeStamp": "2025-02-19 11:44:39.882",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3916,
+    "timeStamp": "2025-02-19 11:44:44.230",
+    "eventType": "CreateFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev/index.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3917,
+    "timeStamp": "2025-02-19 11:44:44.230",
+    "eventType": "CreateFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev/index.mjs.map",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3918,
+    "timeStamp": "2025-02-19 11:44:45.731",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nitro.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3919,
+    "timeStamp": "2025-02-19 11:44:45.824",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nitro.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3920,
+    "timeStamp": "2025-02-19 11:45:12.457",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3921,
+    "timeStamp": "2025-02-19 11:45:12.708",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/components.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3922,
+    "timeStamp": "2025-02-19 11:45:12.708",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-og-image.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3923,
+    "timeStamp": "2025-02-19 11:45:15.107",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3924,
+    "timeStamp": "2025-02-19 11:45:20.512",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3925,
+    "timeStamp": "2025-02-19 11:45:31.498",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3926,
+    "timeStamp": "2025-02-19 11:47:32.685",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3927,
+    "timeStamp": "2025-02-19 11:47:39.663",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3928,
+    "timeStamp": "2025-02-19 11:47:51.217",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3929,
+    "timeStamp": "2025-02-19 11:47:58.248",
+    "eventType": "ChangeTextDocument",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3736,
+    "timeStamp": "2025-02-19 11:41:20.274",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "definePageMeta({\r\n    ssr: true, // 指定该页面支持服务端渲染\r\n})\r\n\r\nuseHead({\r\n    titleTemplate: (titleChunk) => {\r\n        return titleChunk ? `${titleChunk} - 忘れてやらない` : '鼠子Blog'\r\n    },\r\n    meta: [\r\n        { name: 'keywords', content: '鼠子,Tomori,ShuShuicu' },\r\n        { name: 'description', content: '鼠子(Tomoriゞ)记录日常的小站' }\r\n    ],\r\n})"
+      },
+      "start": {
+        "line": 120,
+        "character": 1
+      },
+      "end": {
+        "line": 132,
+        "character": 3
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 3931,
+    "timeStamp": "2025-02-19 11:48:04.220",
+    "eventType": "MouseHover",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Hover",
+      "content": {
+        "before": "",
+        "after": "response"
+      },
+      "start": {
+        "line": 44,
+        "character": 13
+      },
+      "end": {
+        "line": 44,
+        "character": 21
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 3932,
+    "timeStamp": "2025-02-19 11:48:04.947",
+    "eventType": "ChangeTextDocument",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3933,
+    "timeStamp": "2025-02-19 11:48:08.602",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3934,
+    "timeStamp": "2025-02-19 11:48:09.309",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3935,
+    "timeStamp": "2025-02-19 11:48:10.495",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nuxt.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3936,
+    "timeStamp": "2025-02-19 11:48:10.713",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3937,
+    "timeStamp": "2025-02-19 11:48:11.173",
+    "eventType": "ChangeTextDocument",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3930,
+    "timeStamp": "2025-02-19 11:47:58.322",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "definePageMeta({\r\n    ssr: true, // 指定该页面支持服务端渲染\r\n})\r\n\r\nuseHead({\r\n    titleTemplate: (titleChunk) => {\r\n        return titleChunk ? `${titleChunk} - 忘れてやらない` : '鼠子Blog'\r\n    },\r\n    meta: [\r\n        { name: 'keywords', content: '鼠子,Tomori,ShuShuicu' },\r\n        { name: 'description', content: '鼠子(Tomoriゞ)记录日常的小站' }\r\n    ],\r\n})"
+      },
+      "start": {
+        "line": 120,
+        "character": 1
+      },
+      "end": {
+        "line": 132,
+        "character": 3
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 3939,
+    "timeStamp": "2025-02-19 11:48:11.524",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/cache/nuxt-og-image%404.1.2/_fonts/Inter-normal-400.ttf.base64",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3940,
+    "timeStamp": "2025-02-19 11:48:11.524",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/cache/nuxt-og-image%404.1.2/_fonts/Inter-normal-700.ttf.base64",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3938,
+    "timeStamp": "2025-02-19 11:48:11.266",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "definePageMeta({\r\n    ssr: true, // 指定该页面支持服务端渲染\r\n})\r\n\r\nuseHead({\r\n    titleTemplate: (titleChunk) => {\r\n        return titleChunk ? `${titleChunk} - 忘れてやらない` : '鼠子Blog'\r\n    },\r\n    meta: [\r\n        { name: 'keywords', content: '鼠子,Tomori,ShuShuicu' },\r\n        { name: 'description', content: '鼠子(Tomoriゞ)记录日常的小站' }\r\n    ],\r\n})"
+      },
+      "start": {
+        "line": 120,
+        "character": 1
+      },
+      "end": {
+        "line": 132,
+        "character": 3
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 3941,
+    "timeStamp": "2025-02-19 11:48:14.271",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "\r\nposts.value = initialPosts.val"
+      },
+      "start": {
+        "line": 53,
+        "character": 1
+      },
+      "end": {
+        "line": 54,
+        "character": 31
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 3942,
+    "timeStamp": "2025-02-19 11:48:14.283",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "\r\nposts.value = initialPosts.v"
+      },
+      "start": {
+        "line": 53,
+        "character": 1
+      },
+      "end": {
+        "line": 54,
+        "character": 29
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 3943,
+    "timeStamp": "2025-02-19 11:48:14.293",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "\r\nposts.value = initialPost"
+      },
+      "start": {
+        "line": 53,
+        "character": 1
+      },
+      "end": {
+        "line": 54,
+        "character": 26
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 3944,
+    "timeStamp": "2025-02-19 11:48:14.293",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "\r\nposts.value = initial"
+      },
+      "start": {
+        "line": 53,
+        "character": 1
+      },
+      "end": {
+        "line": 54,
+        "character": 22
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 3945,
+    "timeStamp": "2025-02-19 11:48:14.308",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "\r\nposts.value = init"
+      },
+      "start": {
+        "line": 53,
+        "character": 1
+      },
+      "end": {
+        "line": 54,
+        "character": 19
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 3946,
+    "timeStamp": "2025-02-19 11:48:14.317",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "\r\nposts.value = i"
+      },
+      "start": {
+        "line": 53,
+        "character": 1
+      },
+      "end": {
+        "line": 54,
+        "character": 16
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 3947,
+    "timeStamp": "2025-02-19 11:48:14.318",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "\r\nposts.value "
+      },
+      "start": {
+        "line": 53,
+        "character": 1
+      },
+      "end": {
+        "line": 54,
+        "character": 13
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 3948,
+    "timeStamp": "2025-02-19 11:48:14.337",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "\r\nposts.val"
+      },
+      "start": {
+        "line": 53,
+        "character": 1
+      },
+      "end": {
+        "line": 54,
+        "character": 10
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 3949,
+    "timeStamp": "2025-02-19 11:48:14.337",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "\r\nposts."
+      },
+      "start": {
+        "line": 53,
+        "character": 1
+      },
+      "end": {
+        "line": 54,
+        "character": 7
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 3950,
+    "timeStamp": "2025-02-19 11:48:14.341",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "\r\npost"
+      },
+      "start": {
+        "line": 53,
+        "character": 1
+      },
+      "end": {
+        "line": 54,
+        "character": 5
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 3951,
+    "timeStamp": "2025-02-19 11:48:14.356",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "\r\npo"
+      },
+      "start": {
+        "line": 53,
+        "character": 1
+      },
+      "end": {
+        "line": 54,
+        "character": 3
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 3952,
+    "timeStamp": "2025-02-19 11:48:14.361",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "\r\np"
+      },
+      "start": {
+        "line": 53,
+        "character": 1
+      },
+      "end": {
+        "line": 54,
+        "character": 2
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 3953,
+    "timeStamp": "2025-02-19 11:48:14.368",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "\r\n"
+      },
+      "start": {
+        "line": 53,
+        "character": 1
+      },
+      "end": {
+        "line": 54,
+        "character": 1
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 3955,
+    "timeStamp": "2025-02-19 11:48:15.941",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/tsconfig.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3956,
+    "timeStamp": "2025-02-19 11:48:15.941",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nuxt.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3957,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/app.config.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3958,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/app.config.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3959,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/components.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3960,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/imports.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3961,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/%40nuxtjs-sitemap.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3962,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-og-image.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3963,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-robots.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3964,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-schema-org.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3965,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-seo-utils.assets.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3966,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-seo-utils.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3967,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-site-config.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3968,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/app-defaults.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3969,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/build.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3970,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/builder-env.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3971,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/imports.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3972,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/layouts.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3973,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/middleware.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3974,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-nuxt.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3975,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/plugins.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3976,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/schema.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3977,
+    "timeStamp": "2025-02-19 11:48:16.627",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/vue-shim.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3978,
+    "timeStamp": "2025-02-19 11:48:17.158",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3979,
+    "timeStamp": "2025-02-19 11:48:17.298",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3980,
+    "timeStamp": "2025-02-19 11:48:17.298",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3981,
+    "timeStamp": "2025-02-19 11:48:17.832",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/server.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3982,
+    "timeStamp": "2025-02-19 11:48:17.927",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/server.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3983,
+    "timeStamp": "2025-02-19 11:48:17.927",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3984,
+    "timeStamp": "2025-02-19 11:48:18.335",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3985,
+    "timeStamp": "2025-02-19 11:48:18.724",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/schema/nuxt.schema.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3986,
+    "timeStamp": "2025-02-19 11:48:18.977",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/schema/nuxt.schema.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3987,
+    "timeStamp": "2025-02-19 11:48:18.977",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/schema/nuxt.schema.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3988,
+    "timeStamp": "2025-02-19 11:48:19.085",
+    "eventType": "ChangeTextDocument",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3989,
+    "timeStamp": "2025-02-19 11:48:19.148",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/schema/nuxt.schema.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3990,
+    "timeStamp": "2025-02-19 11:48:19.336",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.output",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3991,
+    "timeStamp": "2025-02-19 11:48:19.336",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.output/public",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3992,
+    "timeStamp": "2025-02-19 11:48:19.480",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3993,
+    "timeStamp": "2025-02-19 11:48:19.480",
+    "eventType": "DeleteFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev/index.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3994,
+    "timeStamp": "2025-02-19 11:48:19.480",
+    "eventType": "DeleteFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev/index.mjs.map",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3995,
+    "timeStamp": "2025-02-19 11:48:19.572",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/manifest/latest.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3996,
+    "timeStamp": "2025-02-19 11:48:19.572",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/manifest/meta/dev.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3997,
+    "timeStamp": "2025-02-19 11:48:19.730",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/tsconfig.server.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3998,
+    "timeStamp": "2025-02-19 11:48:19.730",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-config.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3999,
+    "timeStamp": "2025-02-19 11:48:19.730",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-imports.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4000,
+    "timeStamp": "2025-02-19 11:48:19.730",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-routes.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4001,
+    "timeStamp": "2025-02-19 11:48:19.730",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4002,
+    "timeStamp": "2025-02-19 11:48:22.062",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4003,
+    "timeStamp": "2025-02-19 11:48:23.310",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/components.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4004,
+    "timeStamp": "2025-02-19 11:48:23.310",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-og-image.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4005,
+    "timeStamp": "2025-02-19 11:48:23.964",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4006,
+    "timeStamp": "2025-02-19 11:48:24.497",
+    "eventType": "CreateFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev/index.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4007,
+    "timeStamp": "2025-02-19 11:48:24.497",
+    "eventType": "CreateFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev/index.mjs.map",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4008,
+    "timeStamp": "2025-02-19 11:48:25.654",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nitro.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4009,
+    "timeStamp": "2025-02-19 11:48:25.732",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nitro.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4010,
+    "timeStamp": "2025-02-19 11:48:39.269",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4011,
+    "timeStamp": "2025-02-19 11:48:40.826",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4012,
+    "timeStamp": "2025-02-19 11:48:51.280",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4013,
+    "timeStamp": "2025-02-19 11:48:55.125",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4014,
+    "timeStamp": "2025-02-19 11:48:55.857",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4015,
+    "timeStamp": "2025-02-19 11:48:56.961",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4016,
+    "timeStamp": "2025-02-19 11:50:14.300",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4017,
+    "timeStamp": "2025-02-19 11:51:35.307",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4018,
+    "timeStamp": "2025-02-19 11:51:45.990",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 3954,
+    "timeStamp": "2025-02-19 11:48:15.721",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "script setup",
+      "type": "Module",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/components/IndexPost.vue",
+          "type": "File"
+        },
+        {
+          "name": "script setup",
+          "type": "Module"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "posts"
+      },
+      "start": {
+        "line": 54,
+        "character": 1
+      },
+      "end": {
+        "line": 54,
+        "character": 6
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 4021,
+    "timeStamp": "2025-02-19 11:53:09.930",
+    "eventType": "EditTextDocument",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/composables/api.js",
+      "type": "File",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/composables/api.js",
+          "type": "File"
+        }
+      ]
+    },
+    "context": {
+      "type": "Edit",
+      "content": {
+        "before": "<template>\r\n    <v-card class=\"mx-auto\">\r\n        <v-card-title>\r\n            Top western road trips\r\n        </v-card-title>\r\n\r\n        <v-card-subtitle>\r\n            1,000 miles of wonder\r\n        </v-card-subtitle>\r\n\r\n        <v-card-text>\r\n            I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Th",
+        "after": "// composables/api.js\r\nimport { useRuntimeConfig } from '#app'\r\n\r\nexport const useApi = () => {\r\n  const config = useRuntimeConfig()\r\n\r\n  const getPosts = async (number, page) => {\r\n    const response = await fetch(`${config.public.baseURL}/posts?number=${number}&page=${page}`)\r\n    if (!response.ok) {\r\n      throw new Error('Failed to fetch posts')\r\n    }\r\n    return response.json()\r\n  }\r\n\r\n  const getPost = async (cid) => {\r\n    const response = await fetch(`${config.public.baseURL}/post?cid=${cid}`)\r\n    if (!response.ok) {\r\n      throw new Error('Failed to fetch post')\r\n    }\r\n    return response.json()\r\n  }\r\n\r\n  return {\r\n    getPosts,\r\n    getPost\r\n  }\r\n}"
+      },
+      "start": {
+        "line": 1,
+        "character": 1
+      },
+      "end": {
+        "line": 18,
+        "character": 2
+      }
+    },
+    "references": []
+  },
+  {
+    "id": 4022,
+    "timeStamp": "2025-02-19 11:53:10.489",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/composables/api.js",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4023,
+    "timeStamp": "2025-02-19 11:53:12.202",
+    "eventType": "ChangeTextDocument",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4024,
+    "timeStamp": "2025-02-19 11:53:13.596",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4025,
+    "timeStamp": "2025-02-19 11:54:21.291",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4026,
+    "timeStamp": "2025-02-19 11:54:36.827",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4027,
+    "timeStamp": "2025-02-19 11:54:43.466",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4028,
+    "timeStamp": "2025-02-19 11:54:44.780",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4029,
+    "timeStamp": "2025-02-19 11:54:45.542",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4030,
+    "timeStamp": "2025-02-19 11:54:46.960",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4031,
+    "timeStamp": "2025-02-19 11:54:48.020",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4032,
+    "timeStamp": "2025-02-19 11:54:49.751",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4033,
+    "timeStamp": "2025-02-19 11:54:50.890",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4034,
+    "timeStamp": "2025-02-19 11:54:53.118",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4035,
+    "timeStamp": "2025-02-19 11:54:53.695",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4036,
+    "timeStamp": "2025-02-19 11:54:55.038",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4037,
+    "timeStamp": "2025-02-19 11:54:56.241",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4038,
+    "timeStamp": "2025-02-19 11:54:59.033",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4039,
+    "timeStamp": "2025-02-19 11:55:03.953",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4040,
+    "timeStamp": "2025-02-19 11:56:27.919",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4041,
+    "timeStamp": "2025-02-19 11:57:44.411",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4042,
+    "timeStamp": "2025-02-19 11:57:45.196",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4043,
+    "timeStamp": "2025-02-19 11:57:45.864",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4044,
+    "timeStamp": "2025-02-19 11:58:14.616",
+    "eventType": "ChangeTextDocument",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/composables/api.js",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4045,
+    "timeStamp": "2025-02-19 11:58:15.488",
+    "eventType": "ChangeTextDocument",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4046,
+    "timeStamp": "2025-02-19 11:59:44.115",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4048,
+    "timeStamp": "2025-02-19 12:00:28.893",
+    "eventType": "ChangeActiveTerminal",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "unknown->15256",
+      "type": "Terminal"
+    }
+  },
+  {
+    "id": 4049,
+    "timeStamp": "2025-02-19 12:00:32.589",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nuxt.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4050,
+    "timeStamp": "2025-02-19 12:00:32.843",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nuxt.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4051,
+    "timeStamp": "2025-02-19 12:00:33.713",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/cache/nuxt-og-image%404.1.2/_fonts/Inter-normal-400.ttf.base64",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4052,
+    "timeStamp": "2025-02-19 12:00:33.713",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/cache/nuxt-og-image%404.1.2/_fonts/Inter-normal-700.ttf.base64",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4053,
+    "timeStamp": "2025-02-19 12:00:42.755",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/tsconfig.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4054,
+    "timeStamp": "2025-02-19 12:00:42.849",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nuxt.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4055,
+    "timeStamp": "2025-02-19 12:00:42.849",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/tsconfig.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4056,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/app.config.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4057,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/app.config.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4058,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/components.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4059,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/imports.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4060,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/%40nuxtjs-sitemap.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4061,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-og-image.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4062,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-robots.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4063,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-schema-org.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4064,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-seo-utils.assets.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4065,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-seo-utils.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4066,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-site-config.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4067,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/app-defaults.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4068,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/build.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4069,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/builder-env.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4070,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/imports.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4071,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/layouts.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4072,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/middleware.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4073,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-nuxt.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4074,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/plugins.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4075,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/schema.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4076,
+    "timeStamp": "2025-02-19 12:00:44.683",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/vue-shim.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4077,
+    "timeStamp": "2025-02-19 12:00:45.115",
+    "eventType": "ChangeTextDocument",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4078,
+    "timeStamp": "2025-02-19 12:00:45.630",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4079,
+    "timeStamp": "2025-02-19 12:00:45.957",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4080,
+    "timeStamp": "2025-02-19 12:00:45.957",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4081,
+    "timeStamp": "2025-02-19 12:00:47.020",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/server.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4082,
+    "timeStamp": "2025-02-19 12:00:47.177",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4083,
+    "timeStamp": "2025-02-19 12:00:47.177",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/server.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4084,
+    "timeStamp": "2025-02-19 12:00:47.843",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dist/server/client.manifest.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4085,
+    "timeStamp": "2025-02-19 12:00:48.313",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/schema/nuxt.schema.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4086,
+    "timeStamp": "2025-02-19 12:00:48.499",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/schema/nuxt.schema.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4087,
+    "timeStamp": "2025-02-19 12:00:48.499",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/schema/nuxt.schema.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4088,
+    "timeStamp": "2025-02-19 12:00:48.641",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/schema/nuxt.schema.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4089,
+    "timeStamp": "2025-02-19 12:00:48.812",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.output",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4090,
+    "timeStamp": "2025-02-19 12:00:48.812",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.output/public",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4091,
+    "timeStamp": "2025-02-19 12:00:48.983",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4092,
+    "timeStamp": "2025-02-19 12:00:48.983",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/manifest/latest.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4093,
+    "timeStamp": "2025-02-19 12:00:48.983",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/manifest/meta/dev.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4094,
+    "timeStamp": "2025-02-19 12:00:48.983",
+    "eventType": "DeleteFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev/index.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4095,
+    "timeStamp": "2025-02-19 12:00:48.983",
+    "eventType": "DeleteFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev/index.mjs.map",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4096,
+    "timeStamp": "2025-02-19 12:00:49.170",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/tsconfig.server.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4097,
+    "timeStamp": "2025-02-19 12:00:49.170",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-config.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4098,
+    "timeStamp": "2025-02-19 12:00:49.170",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-imports.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4099,
+    "timeStamp": "2025-02-19 12:00:49.170",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro-routes.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4100,
+    "timeStamp": "2025-02-19 12:00:49.170",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/types/nitro.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4101,
+    "timeStamp": "2025-02-19 12:00:53.130",
+    "eventType": "CreateFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev/index.mjs",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4102,
+    "timeStamp": "2025-02-19 12:00:53.130",
+    "eventType": "CreateFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/dev/index.mjs.map",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4103,
+    "timeStamp": "2025-02-19 12:00:54.586",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nitro.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4104,
+    "timeStamp": "2025-02-19 12:00:54.680",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/nitro.json",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4105,
+    "timeStamp": "2025-02-19 12:02:39.719",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/pages/article/%5Bid%5D.vue",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4106,
+    "timeStamp": "2025-02-19 12:02:40.033",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/components.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4107,
+    "timeStamp": "2025-02-19 12:02:40.033",
+    "eventType": "SaveFile",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/.nuxt/module/nuxt-og-image.d.ts",
+      "type": "File"
+    }
+  },
+  {
+    "id": 4108,
+    "timeStamp": "2025-02-19 12:02:47.783",
+    "eventType": "CloseTerminal",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "8144",
+      "type": "Terminal"
+    }
+  },
+  {
+    "id": 4109,
+    "timeStamp": "2025-02-19 12:02:47.789",
+    "eventType": "CloseTerminal",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "15256",
+      "type": "Terminal"
+    }
+  },
+  {
+    "id": 4020,
+    "timeStamp": "2025-02-19 11:53:09.598",
+    "eventType": "SelectText",
+    "taskType": "Coding",
+    "artifact": {
+      "name": "file:///d%3A/Code/nuxt/StarBeat/composables/api.js",
+      "type": "File",
+      "hierarchy": [
+        {
+          "name": "file:///d%3A/Code/nuxt/StarBeat/composables/api.js",
+          "type": "File"
+        }
+      ]
+    },
+    "context": {
+      "type": "Select",
+      "content": {
+        "before": "",
+        "after": "// composables/api.js\r\nimport { useRuntimeConfig } from '#app'\r\n\r\nexport const useApi = () => {\r\n  const config = useRuntimeConfig()\r\n\r\n  const getPosts = async (number, page) => {\r\n    const response = await fetch(`${config.public.baseURL}/posts?number=${number}&page=${page}`)\r\n    if (!response.ok) {\r\n      throw new Error('Failed to fetch posts')\r\n    }\r\n    return response.json()\r\n  }\r\n\r\n  return {\r\n    getPosts\r\n  }\r\n}"
+      },
+      "start": {
+        "line": 1,
+        "character": 1
+      },
+      "end": {
+        "line": 18,
+        "character": 2
+      }
+    },
+    "references": []
+  }
+]
