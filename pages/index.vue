@@ -22,7 +22,7 @@
         </v-card>
     </NuxtLink>
 
-    <div style="text-align: center;">
+    <div v-if="showMoreButton" style="text-align: center;">
         <v-btn color="primary" @click="loadMore" :loading="loading">加载更多</v-btn>
     </div>
 </template>
@@ -30,18 +30,22 @@
 <script setup>
 import { useApi } from '~/composables/api'
 import { useAsyncData } from '#app'
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 
 const { getPosts } = useApi()
 
 const page = ref(1)
 const loading = ref(false)
 const posts = ref([])
+const totalPages = ref(1)
+
+const showMoreButton = computed(() => page.value < totalPages.value)
 
 const { data: initialPosts } = await useAsyncData('posts', async () => {
     try {
         const response = await getPosts(5, page.value)
         if (response.status === 'success') {
+            totalPages.value = response.data.pages // 初始化总页数
             return response.data.dataSet
         }
         throw new Error('Failed to fetch posts')
@@ -60,21 +64,20 @@ const loadMore = async () => {
         const response = await getPosts(5, page.value)
         if (response.status === 'success') {
             posts.value = [...posts.value, ...response.data.dataSet]
+            totalPages.value = response.data.pages // 更新总页数
         }
     } catch (error) {
         console.error('Error fetching more posts:', error)
+        page.value-- // 回滚页码
     } finally {
         loading.value = false
     }
 }
 
+// 工具函数
 const truncateDigest = (digest) => {
-    // 移除所有HTML标签
     const plainText = digest.replace(/<[^>]+>/g, '')
-    if (plainText.length > 150) {
-        return plainText.substring(0, 150) + '...'
-    }
-    return plainText
+    return plainText.length > 150 ? plainText.substring(0, 150) + '...' : plainText
 }
 
 const getCategoryNames = (categories) => {
@@ -89,42 +92,18 @@ const formatDate = (date) => {
 }
 
 const getThumbnail = (digest) => {
-    // 使用正则表达式提取第一张图片的URL
     const imgMatch = digest.match(/<img[^>]+src="([^">]+)"/)
-    if (imgMatch && imgMatch[1]) {
-        return imgMatch[1]
-    }
-    // 如果没有图片，则随机选择一个缩略图
-    const randomThumbnails = [
-        '/assets/img/thumbnail/1.webp',
-        '/assets/img/thumbnail/2.webp',
-        '/assets/img/thumbnail/3.webp',
-        '/assets/img/thumbnail/4.webp',
-        '/assets/img/thumbnail/5.webp',
-        '/assets/img/thumbnail/6.webp',
-        '/assets/img/thumbnail/7.webp',
-        '/assets/img/thumbnail/8.webp',
-        '/assets/img/thumbnail/9.webp',
-        '/assets/img/thumbnail/10.webp',
-        '/assets/img/thumbnail/11.webp',
-        '/assets/img/thumbnail/12.webp',
-        '/assets/img/thumbnail/13.webp',
-        '/assets/img/thumbnail/14.webp',
-        '/assets/img/thumbnail/15.webp',
-        '/assets/img/thumbnail/16.webp'
-    ]
-    const randomIndex = Math.floor(Math.random() * randomThumbnails.length)
-    return randomThumbnails[randomIndex]
+    if (imgMatch?.[1]) return imgMatch[1]
+    
+    const randomIndex = Math.floor(Math.random() * 16)
+    return `/assets/img/thumbnail/${randomIndex + 1}.webp`
 }
 
-definePageMeta({
-    ssr: true, // 指定该页面支持服务端渲染
-})
+definePageMeta({ ssr: true })
 
 useHead({
-    titleTemplate: (titleChunk) => {
-        return titleChunk ? `${titleChunk} - 忘れてやらない` : '鼠子Blog'
-    },
+    titleTemplate: (titleChunk) => 
+        titleChunk ? `${titleChunk} - 忘れてやらない` : '鼠子Blog',
     meta: [
         { name: 'keywords', content: '鼠子,Tomori,ShuShuicu' },
         { name: 'description', content: '鼠子(Tomoriゞ)记录日常的小站' }
