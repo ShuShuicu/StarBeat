@@ -7,6 +7,7 @@
                     <NuxtPage />
                 </v-container>
             </div>
+            <Bottom />
         </v-main>
     </v-app>
 </template>

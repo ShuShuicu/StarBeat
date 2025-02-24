@@ -17,8 +17,7 @@
             </v-card-text>
         </v-card>
     </NuxtLink>
-
-    <div v-if="page < totalPages" style="text-align: center;">
+    <div v-if="page < totalPages" style="text-align: center;margin-bottom: -20px;">
         <v-btn color="primary" @click="loadMore" :loading="loading">加载更多</v-btn>
     </div>
 </template>
@@ -33,24 +32,28 @@ const { getPosts } = useApi()
 const page = ref(1)
 const loading = ref(false)
 const posts = ref([])
-const totalPages = ref(0) // 新增总页数状态
+const totalPages = ref(0)
 
-// 初始化请求
+// 修改1: 返回包含 totalPages 的结构化数据
 const { data: initialData } = await useAsyncData('posts', async () => {
     try {
         const response = await getPosts(5, page.value)
         if (response.status === 'success') {
-            totalPages.value = response.data.pages // 保存总页数
-            return response.data.dataSet
+            return {
+                posts: response.data.dataSet,
+                totalPages: response.data.pages // 将总页数包含在返回值中
+            }
         }
         throw new Error('Failed to fetch posts')
     } catch (error) {
         console.error('Error fetching posts:', error)
-        return []
+        return { posts: [], totalPages: 0 } // 返回兼容结构
     }
 })
 
-posts.value = initialData.value
+// 修改2: 从结构化数据中解构赋值
+posts.value = initialData.value.posts
+totalPages.value = initialData.value.totalPages
 
 const loadMore = async () => {
     loading.value = true
@@ -59,7 +62,7 @@ const loadMore = async () => {
         const response = await getPosts(5, page.value)
         if (response.status === 'success') {
             posts.value = [...posts.value, ...response.data.dataSet]
-            totalPages.value = response.data.pages // 更新总页数
+            // 修改3: 不再需要更新 totalPages
         }
     } catch (error) {
         console.error('Error fetching more posts:', error)
@@ -67,8 +70,7 @@ const loadMore = async () => {
         loading.value = false
     }
 }
-
-// 以下工具函数保持不变
+// 工具函数
 const truncateDigest = (digest) => {
     const plainText = digest.replace(/<[^>]+>/g, '')
     return plainText.length > 150 ? plainText.substring(0, 150) + '...' : plainText
