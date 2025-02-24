@@ -1,11 +1,7 @@
 <template>
     <NuxtLink v-for="post in posts" :key="post.cid" :to="`/article/${post.cid}`">
         <v-card style="margin-bottom: 20px;" hover>
-            <v-img
-                height="200px"
-                :src="getThumbnail(post.digest)"
-                cover
-            ></v-img>
+            <v-img height="200px" :src="getThumbnail(post.digest)" cover></v-img>
             <v-card-item>
                 <v-card-title>
                     {{ post.title }}
@@ -22,7 +18,7 @@
         </v-card>
     </NuxtLink>
 
-    <div v-if="showMoreButton" style="text-align: center;">
+    <div v-if="page < totalPages" style="text-align: center;">
         <v-btn color="primary" @click="loadMore" :loading="loading">加载更多</v-btn>
     </div>
 </template>
@@ -30,22 +26,21 @@
 <script setup>
 import { useApi } from '~/composables/api'
 import { useAsyncData } from '#app'
-import { ref, computed } from 'vue'
+import { ref } from 'vue'
 
 const { getPosts } = useApi()
 
 const page = ref(1)
 const loading = ref(false)
 const posts = ref([])
-const totalPages = ref(1)
+const totalPages = ref(0) // 新增总页数状态
 
-const showMoreButton = computed(() => page.value < totalPages.value)
-
-const { data: initialPosts } = await useAsyncData('posts', async () => {
+// 初始化请求
+const { data: initialData } = await useAsyncData('posts', async () => {
     try {
         const response = await getPosts(5, page.value)
         if (response.status === 'success') {
-            totalPages.value = response.data.pages // 初始化总页数
+            totalPages.value = response.data.pages // 保存总页数
             return response.data.dataSet
         }
         throw new Error('Failed to fetch posts')
@@ -55,7 +50,7 @@ const { data: initialPosts } = await useAsyncData('posts', async () => {
     }
 })
 
-posts.value = initialPosts.value
+posts.value = initialData.value
 
 const loadMore = async () => {
     loading.value = true
@@ -68,13 +63,12 @@ const loadMore = async () => {
         }
     } catch (error) {
         console.error('Error fetching more posts:', error)
-        page.value-- // 回滚页码
     } finally {
         loading.value = false
     }
 }
 
-// 工具函数
+// 以下工具函数保持不变
 const truncateDigest = (digest) => {
     const plainText = digest.replace(/<[^>]+>/g, '')
     return plainText.length > 150 ? plainText.substring(0, 150) + '...' : plainText
@@ -85,25 +79,38 @@ const getCategoryNames = (categories) => {
 }
 
 const formatDate = (date) => {
-    const year = date.year
-    const month = String(date.month).padStart(2, '0')
-    const day = String(date.day).padStart(2, '0')
-    return `${year}-${month}-${day}`
+    return `${date.year}-${String(date.month).padStart(2, '0')}-${String(date.day).padStart(2, '0')}`
 }
 
 const getThumbnail = (digest) => {
     const imgMatch = digest.match(/<img[^>]+src="([^">]+)"/)
     if (imgMatch?.[1]) return imgMatch[1]
-    
-    const randomIndex = Math.floor(Math.random() * 16)
-    return `/assets/img/thumbnail/${randomIndex + 1}.webp`
+
+    const randomThumbnails = [
+        '/assets/img/thumbnail/1.webp',
+        '/assets/img/thumbnail/2.webp',
+        '/assets/img/thumbnail/3.webp',
+        '/assets/img/thumbnail/4.webp',
+        '/assets/img/thumbnail/5.webp',
+        '/assets/img/thumbnail/6.webp',
+        '/assets/img/thumbnail/7.webp',
+        '/assets/img/thumbnail/8.webp',
+        '/assets/img/thumbnail/9.webp',
+        '/assets/img/thumbnail/10.webp',
+        '/assets/img/thumbnail/11.webp',
+        '/assets/img/thumbnail/12.webp',
+        '/assets/img/thumbnail/13.webp',
+        '/assets/img/thumbnail/14.webp',
+        '/assets/img/thumbnail/15.webp',
+        '/assets/img/thumbnail/16.webp'
+    ]
+    return randomThumbnails[Math.floor(Math.random() * randomThumbnails.length)]
 }
 
 definePageMeta({ ssr: true })
 
 useHead({
-    titleTemplate: (titleChunk) => 
-        titleChunk ? `${titleChunk} - 忘れてやらない` : '鼠子Blog',
+    titleTemplate: (titleChunk) => titleChunk ? `${titleChunk} - 忘れてやらない` : '鼠子Blog',
     meta: [
         { name: 'keywords', content: '鼠子,Tomori,ShuShuicu' },
         { name: 'description', content: '鼠子(Tomoriゞ)记录日常的小站' }

@@ -1,10 +1,12 @@
 <template>
-    <v-app class="fill-height">
+    <v-app>
         <v-main>
-            <Drawer />
-            <v-container>
-                <NuxtPage />
-            </v-container>
+            <div class="fill-height">
+                <Drawer />
+                <v-container>
+                    <NuxtPage />
+                </v-container>
+            </div>
         </v-main>
     </v-app>
 </template>
