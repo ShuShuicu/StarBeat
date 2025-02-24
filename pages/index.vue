@@ -17,7 +17,7 @@
             </v-card-text>
         </v-card>
     </NuxtLink>
-    <div v-if="page < totalPages" style="text-align: center;margin-bottom: -20px;">
+    <div v-if="page < totalPages" style="text-align: center;">
         <v-btn color="primary" @click="loadMore" :loading="loading">加载更多</v-btn>
     </div>
 </template>
