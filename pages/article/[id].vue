@@ -1,36 +1,8 @@
-<template>
-    <v-card class="mx-auto">
-        <!-- 加载完成状态 -->
-        <template v-if="post">
-            <v-card-title>{{ post.title }}</v-card-title>
-            <v-card-subtitle>
-                {{ formattedDate }} · {{ categoryNames }}
-            </v-card-subtitle>
-            <v-card-text class="NijikaPost">
-                <div v-html="post.text"></div>
-            </v-card-text>
-        </template>
-
-        <!-- 加载中状态 -->
-        <template v-else>
-            <v-card-title>
-                <v-skeleton-loader type="heading" width="80%"></v-skeleton-loader>
-            </v-card-title>
-            <v-card-subtitle>
-                <v-skeleton-loader type="text" width="200"></v-skeleton-loader>
-                <v-skeleton-loader type="text" width="150" class="ml-2"></v-skeleton-loader>
-            </v-card-subtitle>
-            <v-card-text>
-                <v-skeleton-loader type="paragraph@3" class="NijikaPost"></v-skeleton-loader>
-            </v-card-text>
-        </template>
-    </v-card>
-</template>
-
 <script setup lang="ts">
 import { useApi } from '~/composables/api'
-import { useAsyncData, useRoute, useHead, navigateTo } from '#app'
+import { useAsyncData, useRoute, navigateTo } from '#app'
 import { ref, watch, onMounted, nextTick, computed } from 'vue'
+import { useSeoMeta } from '#imports' // 引入 useSeoMeta
 
 // 类型声明
 interface PostCategory { name: string }
@@ -85,7 +57,7 @@ const initializePage = async () => {
             })
             return null
         }
-    })
+    }, { server: true }) // 确保在服务器端加载数据
 
     // 数据有效性校验
     if (!postData.value) {
@@ -102,24 +74,22 @@ const initializePage = async () => {
     // SEO配置
     watch(post, (newPost) => {
         if (!newPost) return
-        useHead({
-            titleTemplate: (titleChunk: string | null) =>
-                titleChunk ? `${newPost.title} - ${titleChunk}` : newPost.title,
-            meta: [
-                {
-                    name: 'keywords',
-                    content: newPost.categories.map(c => c.name).join(', ')
-                },
-                {
-                    name: 'description',
-                    content: newPost.digest
-                        .replace(/<[^>]+>/g, '')
-                        .substring(0, 150)
-                }
-            ]
+        useSeoMeta({
+            title: newPost.title, // 直接使用文章标题
+            keywords: newPost.categories.map(c => c.name).join(', '),
+            description: newPost.digest
+                .replace(/<[^>]+>/g, '')
+                .substring(0, 150)
         })
     }, { immediate: true })
 }
+
+// 默认 SEO 配置
+useSeoMeta({
+    title: '鼠子Blog', // 默认标题
+    titleTemplate: (titleChunk: string | null) =>
+        titleChunk ? `${titleChunk}` : '鼠子Blog', // 移除默认后缀
+})
 
 // 执行初始化
 initializePage().catch((error: any) => {
@@ -141,6 +111,35 @@ const highlightCode = async () => {
 watch(post, highlightCode)
 onMounted(highlightCode)
 </script>
+
+<template>
+    <v-card class="mx-auto">
+        <!-- 加载完成状态 -->
+        <template v-if="post">
+            <v-card-title>{{ post.title }}</v-card-title>
+            <v-card-subtitle>
+                {{ formattedDate }} · {{ categoryNames }}
+            </v-card-subtitle>
+            <v-card-text class="NijikaPost">
+                <div v-html="post.text"></div>
+            </v-card-text>
+        </template>
+
+        <!-- 加载中状态 -->
+        <template v-else>
+            <v-card-title>
+                <v-skeleton-loader type="heading" width="80%"></v-skeleton-loader>
+            </v-card-title>
+            <v-card-subtitle>
+                <v-skeleton-loader type="text" width="200"></v-skeleton-loader>
+                <v-skeleton-loader type="text" width="150" class="ml-2"></v-skeleton-loader>
+            </v-card-subtitle>
+            <v-card-text>
+                <v-skeleton-loader type="paragraph@3" class="NijikaPost"></v-skeleton-loader>
+            </v-card-text>
+        </template>
+    </v-card>
+</template>
 
 <style scoped>
 .NijikaPost {

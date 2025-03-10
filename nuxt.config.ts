@@ -47,6 +47,8 @@ export default defineNuxtConfig({
         lang: 'zh-CN',
       },
       title: '鼠子Blog',
+      titleTemplate: (titleChunk: string | undefined) => 
+        titleChunk ? `${titleChunk}` : '鼠子Blog', // 移除默认后缀
       meta: [
         { name: 'keywords', content: '鼠子,Tomori,ShuShuicu' },
         { name: 'description', content: '鼠子(Tomoriゞ)记录日常的小站' }
