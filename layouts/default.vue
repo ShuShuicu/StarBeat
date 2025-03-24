@@ -1,34 +1,13 @@
 <template>
-    <v-app>
-        <v-main>
-            <div class="fill-height">
-                <Drawer />
-                <v-container>
-                    <NuxtPage />
-                </v-container>
-            </div>
-            <Bottom />
-        </v-main>
-    </v-app>
+    <AppMenu />
+    <div class="StarBeatContent">
+        <a-row :gutter="12">
+            <a-col :xs="24" :sm="24" :md="24" :lg="20" :xl="18" :xxl="18">
+                <NuxtPage />
+            </a-col>
+            <a-col :xs="24" :sm="24" :md="24" :lg="4" :xl="6" :xxl="6">
+                <AppSidebar />
+            </a-col>
+        </a-row>
+    </div>
 </template>
-
-<script>
-import Bars from '~/components/Bars.vue';
-import Drawer from '~/components/Drawer.vue';
-import { ConfigProvider, theme } from 'ant-design-vue'
-
-const darkTheme = {
-    algorithm: theme.darkAlgorithm
-}
-export default {
-    components: {
-        Bars,
-        Drawer,
-    },
-    data() {
-        return {
-            drawer: true,
-        };
-    },
-};
-</script>
