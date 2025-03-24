@@ -7,11 +7,16 @@ export default defineNuxtConfig({
     '@ant-design-vue/nuxt',
     '@nuxtjs/seo'
   ],
+  build: {
+    transpile: [
+      'prismjs'
+    ],
+  },
   antd: {
     // Options
   },
   css: [
-    '~/public/assets/main.scss'
+    '~/public/assets/main.scss',
   ],
   runtimeConfig: {
     public: {

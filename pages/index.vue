@@ -1,4 +1,5 @@
 <script setup>
+import { ref, watch } from 'vue';
 import { useAsyncData, useHead } from '#imports';
 import { fetchPosts } from '~/composables/api';
 
@@ -15,15 +16,36 @@ useHead({
     ],
 });
 
-// 获取文章数据
-const { data: posts, error } = await useAsyncData('posts', () => fetchPosts(1, 10));
+const currentPage = ref(1);
+const pageSize = 5;
+const posts = ref([]);
+const loading = ref(false);
+const error = ref(null);
+
+const loadMorePosts = async () => {
+    if (loading.value) return;
+    loading.value = true;
+
+    try {
+        const newPosts = await fetchPosts(currentPage.value, pageSize);
+        posts.value = [...posts.value, ...newPosts];
+        currentPage.value++;
+    } catch (err) {
+        error.value = err.message;
+    } finally {
+        loading.value = false;
+    }
+};
+
+// 初始化加载第一页
+loadMorePosts();
 </script>
 
 <template>
     <div v-if="error">
         <p>Failed to load posts. Please try again later.</p>
     </div>
-    <div v-else-if="posts">
+    <div v-else-if="posts.length > 0">
         <NuxtLink v-for="post in posts" :key="post.cid" :to="`/article/${post.cid}`">
             <a-card style="margin-bottom: 20px;">
                 <template #title>
@@ -35,8 +57,13 @@ const { data: posts, error } = await useAsyncData('posts', () => fetchPosts(1, 1
                 {{ post.digest }}
             </a-card>
         </NuxtLink>
+        <div style="text-align: center;">
+            <a-button :loading="loading" @click="loadMorePosts">加载更多</a-button>
+        </div>
     </div>
-    <div v-else style="text-align: center;">
-        <a-spin size="large" />
-    </div>
+    <a-card v-else>
+        <div style="text-align: center;">
+            <a-spin size="large" />
+        </div>
+    </a-card>
 </template>

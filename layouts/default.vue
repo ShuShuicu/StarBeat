@@ -1,3 +1,6 @@
+<script setup>
+</script>
+
 <template>
     <AppMenu />
     <div class="StarBeatContent">
@@ -6,7 +9,9 @@
                 <NuxtPage />
             </a-col>
             <a-col :xs="24" :sm="24" :md="24" :lg="4" :xl="6" :xxl="6">
-                <AppSidebar />
+                <a-affix :offset-top="20">
+                    <AppSidebar />
+                </a-affix>
             </a-col>
         </a-row>
     </div>
