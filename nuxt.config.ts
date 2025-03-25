@@ -1,19 +1,30 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   ssr: true,
+  routeRules: {
+    '/article/**': {
+      ssr: true,
+      prerender: true // 启用预渲染
+    }
+  },
   modules: [
-    '@ant-design-vue/nuxt',
-    '@nuxtjs/seo'
+    '@nuxtjs/seo',
+    (_options, nuxt) => {
+      nuxt.hooks.hook('vite:extendConfig', (config) => {
+        // @ts-expect-error
+        config.plugins.push(vuetify({ autoImport: true }))
+      })
+    },
   ],
   build: {
     transpile: [
-      'prismjs'
+      'vueuc',
+      'vuetify',
+      'prismjs',
     ],
-  },
-  antd: {
-    // Options
   },
   css: [
     '~/public/assets/main.scss',

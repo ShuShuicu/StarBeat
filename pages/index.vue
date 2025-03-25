@@ -47,23 +47,27 @@ loadMorePosts();
     </div>
     <div v-else-if="posts.length > 0">
         <NuxtLink v-for="post in posts" :key="post.cid" :to="`/article/${post.cid}`">
-            <a-card style="margin-bottom: 20px;">
-                <template #title>
-                    {{ post.title }}
-                </template>
-                <template #extra>
-                    <a-button type="link">{{ post.formattedDate }}</a-button>
-                </template>
-                {{ post.digest }}
-            </a-card>
+            <v-card class="mx-auto" style="margin-bottom: 10px;" hover>
+                <v-card-item>
+                    <v-card-title>
+                        {{ post.title }}
+                    </v-card-title>
+
+                    <v-card-subtitle>
+                        {{ post.formattedDate }}
+                    </v-card-subtitle>
+                </v-card-item>
+
+                <v-card-text>
+                    {{ post.digest }}
+                </v-card-text>
+            </v-card>
         </NuxtLink>
-        <div style="text-align: center;">
-            <a-button :loading="loading" @click="loadMorePosts">加载更多</a-button>
+        <div class="text-center">
+            <v-btn color="primary" @click="loadMorePosts" :loading="loading">加载更多</v-btn>
         </div>
     </div>
-    <a-card v-else>
-        <div style="text-align: center;">
-            <a-spin size="large" />
+        <div style="text-center" v-else>
+            <v-skeleton-loader type="article"></v-skeleton-loader>
         </div>
-    </a-card>
 </template>
