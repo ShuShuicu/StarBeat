@@ -59,7 +59,7 @@ loadMorePosts();
                 </v-card-item>
 
                 <v-card-text>
-                    {{ post.digest }}
+                    {{ post.digest }}...
                 </v-card-text>
             </v-card>
         </NuxtLink>
@@ -67,7 +67,7 @@ loadMorePosts();
             <v-btn color="primary" @click="loadMorePosts" :loading="loading">加载更多</v-btn>
         </div>
     </div>
-        <div style="text-center" v-else>
+        <div v-else>
             <v-skeleton-loader type="article"></v-skeleton-loader>
         </div>
 </template>

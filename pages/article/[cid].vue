@@ -3,10 +3,10 @@ import { ref, watch, onMounted, computed } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { useAsyncData, useHead } from '#imports';
 import { fetchArticle } from '~/composables/api';
+import EasyLightbox from 'vue-easy-lightbox';
 // 引入 Prism.js
 import * as Prism from 'prismjs';
 import 'prismjs/themes/prism-okaidia.min.css';
-import VueEasyLightbox from 'vue-easy-lightbox';
 import { nextTick } from 'vue';
 
 definePageMeta({
@@ -62,27 +62,6 @@ watch(article, highlightCode);
 
 // 在组件挂载后高亮代码
 onMounted(highlightCode);
-
-// 灯箱相关变量
-const visible = ref(false); // 控制灯箱显示/隐藏
-const index = ref(0); // 当前显示的图片索引
-const images = ref([]); // 图片数组
-
-// 显示灯箱
-const showLightbox = (idx) => {
-    index.value = idx;
-    visible.value = true;
-};
-
-// 提取文章中的图片
-watch(article, (newArticle) => {
-    if (newArticle) {
-        const imgTags = newArticle.text.match(/<img [^>]+src="([^">]+)"/g);
-        if (imgTags) {
-            images.value = imgTags.map(img => img.match(/src="([^">]+)"/)[1]);
-        }
-    }
-}, { immediate: true });
 </script>
 
 <template>
@@ -94,9 +73,9 @@ watch(article, (newArticle) => {
             <template #subtitle>
                 {{ formattedDate }} · {{article.categories.map(cat => cat.name).join(', ')}}
             </template>
-            <v-card-text>
+            <v-card-text class="content">
                 <div
-                    v-html="article.text.replace(/<img ([^>]+)>/g, `<img $1 @click='showLightbox($index)' style='cursor: pointer;' />`)">
+                    v-html="article.text">
                 </div>
                 <div class="separator">THE END</div>
                 <div>
@@ -109,9 +88,6 @@ watch(article, (newArticle) => {
     <div v-else style="text-align: center;">
         <v-skeleton-loader type="article"></v-skeleton-loader>
     </div>
-
-    <!-- 灯箱组件 -->
-    <vue-easy-lightbox :visible="visible" :imgs="images" :index="index" @hide="visible = false" />
 </template>
 
 <style scoped>
