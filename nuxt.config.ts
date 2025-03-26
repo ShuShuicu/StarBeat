@@ -31,6 +31,7 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     public: {
+      siteURL: 'https://blog.miomoe.cn',
       baseURL: 'https://api-v2.x-x.work/web/blog',
     },
   },

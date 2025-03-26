@@ -20,7 +20,6 @@ const pageSize = 5;
 const posts = ref([]);
 const loading = ref(false);
 const error = ref(null);
-
 const loadMorePosts = async () => {
     if (loading.value) return;
     loading.value = true;
@@ -63,7 +62,7 @@ loadMorePosts();
                 </v-card-text>
             </v-card>
         </NuxtLink>
-        <div class="text-center">
+        <div v-if="posts.length % pageSize === 0 && posts.length > 0" class="text-center">
             <v-btn color="primary" @click="loadMorePosts" :loading="loading">加载更多</v-btn>
         </div>
     </div>
