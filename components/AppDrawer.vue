@@ -3,8 +3,6 @@ import { ref } from 'vue';
 
 const drawer = ref();
 
-const dialog = ref(false);
-
 const toggleDrawer = () => {
   drawer.value = !drawer.value;
 };
@@ -24,9 +22,12 @@ const listItems = [
       <router-link to="/">鼠子Blog</router-link>
     </v-app-bar-title>
     <template v-slot:append>
-      <v-btn icon="mdi-heart"></v-btn>
+      <a href="https://github.com/ShuShuicu/StarBeat" target="_blank"><v-btn icon="mdi-heart"></v-btn></a>
+      <v-tooltip activator="parent" location="start">点个Star叭!</v-tooltip>
 
-      <v-btn icon="mdi-magnify" @click="dialog = true"></v-btn>
+      <NuxtLink to="/search" style="text-decoration: none;">
+        <v-btn icon="mdi-magnify"></v-btn>
+      </NuxtLink>
     </template>
   </v-app-bar>
   <v-navigation-drawer v-model="drawer" :location="$vuetify.display.mobile ? 'left' : undefined">
@@ -34,18 +35,20 @@ const listItems = [
       <router-link v-for="item in listItems" :key="item.title" :title="item.title" :icon="item.icon" :to="item.link">
         <v-list-item :prepend-icon="item.icon" :title="item.title" :value="item.title" />
       </router-link>
+      <v-divider></v-divider>
+      <a href="https://space.bilibili.com/435502585" target="_blank">
+        <v-list-item prepend-icon="mdi-account" title="Bilibili" value="bilibili" />
+      </a>
     </v-list>
+    <template v-slot:append>
+      <div class="pa-2">
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="external nofollow noopener">
+          <v-btn block>
+            鲁ICP备2023052135号-2
+          </v-btn>
+        </a>
+      </div>
+    </template>
   </v-navigation-drawer>
-
-  <v-dialog v-model="dialog" width="auto">
-    <v-card width="400" prepend-icon="mdi-magnify" title="搜索">
-      <template #text>
-        <v-text-field label="搜索" v-model="search" />
-      </template>
-      <template v-slot:actions>
-        <v-btn class="ms-auto" text="关闭" @click="dialog = false"></v-btn>
-      </template>
-    </v-card>
-  </v-dialog>
 
 </template>
