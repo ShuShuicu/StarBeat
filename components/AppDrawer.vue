@@ -10,7 +10,7 @@ const toggleDrawer = () => {
 const listItems = [
   { title: 'Home', icon: 'mdi-home', link: '/' },
   { title: 'Search', icon: 'mdi-magnify', link: '/search' },
-  { title: 'About', icon: 'mdi-information', link: '/about' },
+  { title: 'About', icon: 'mdi-account', link: '/about' },
 ];
 </script>
 
@@ -23,10 +23,12 @@ const listItems = [
       <router-link to="/">鼠子Blog</router-link>
     </v-app-bar-title>
     <template v-slot:append>
-      <a href="https://github.com/ShuShuicu/StarBeat" target="_blank"><v-btn icon="mdi-heart"></v-btn></a>
-      <v-tooltip activator="parent" location="start">点个Star叭!</v-tooltip>
+      <a href="https://github.com/ShuShuicu/StarBeat" target="_blank">
+        <v-btn icon="mdi-heart"></v-btn>
+        <v-tooltip activator="parent" location="start">点个Star叭!</v-tooltip>
+      </a>
 
-      <NuxtLink to="/search" style="text-decoration: none;">
+      <NuxtLink to="/search">
         <v-btn icon="mdi-magnify"></v-btn>
       </NuxtLink>
     </template>
@@ -38,7 +40,7 @@ const listItems = [
       </router-link>
       <v-divider></v-divider>
       <a href="https://space.bilibili.com/435502585" target="_blank">
-        <v-list-item prepend-icon="mdi-account" title="Bilibili" value="bilibili" />
+        <v-list-item prepend-icon="mdi-video-box" title="Bilibili" value="bilibili" />
       </a>
     </v-list>
     <template v-slot:append>
