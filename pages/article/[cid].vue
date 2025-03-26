@@ -2,9 +2,6 @@
 import { ref, watch, onMounted, computed } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { useAsyncData, useHead } from '#imports';
-import { fetchArticle } from '~/composables/api';
-import EasyLightbox from 'vue-easy-lightbox';
-// 引入 Prism.js
 import * as Prism from 'prismjs';
 import 'prismjs/themes/prism-okaidia.min.css';
 import { nextTick } from 'vue';
@@ -19,7 +16,9 @@ const router = useRouter();
 const cid = route.params.cid;
 
 // 获取文章数据
-const { data: article, error } = await useAsyncData(`article-${cid}`, () => fetchArticle(cid));
+const { data: article, error } = await useAsyncData(`article-${cid}`, () =>
+    $fetch(`/api/article?cid=${cid}`)
+);
 
 // 处理错误
 watch(error, (newError) => {
@@ -71,10 +70,11 @@ onMounted(highlightCode);
     <div v-else-if="article">
         <v-card :title="article.title">
             <template #subtitle>
-                {{ formattedDate }} · {{article.categories.map(cat => cat.name).join(', ')}}
+                {{ formattedDate }} · {{ article.categories.map(cat => cat.name).join(', ') }}
             </template>
-            <v-card-text class="content">
+            <v-card-text>
                 <div
+                    class="StarBeatTypo"
                     v-html="article.text">
                 </div>
                 <div class="separator">THE END</div>

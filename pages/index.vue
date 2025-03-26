@@ -1,10 +1,9 @@
 <script setup>
-import { ref, watch } from 'vue';
-import { useAsyncData, useHead } from '#imports';
-import { fetchPosts } from '~/composables/api';
+import { ref } from 'vue';
+import { useHead } from '#imports';
 
 definePageMeta({
-    ssr: true, // 指定该页面支持服务端渲染
+    ssr: true,
 });
 
 useHead({
@@ -27,8 +26,10 @@ const loadMorePosts = async () => {
     loading.value = true;
 
     try {
-        const newPosts = await fetchPosts(currentPage.value, pageSize);
-        posts.value = [...posts.value, ...newPosts];
+        const { data } = await useFetch('/api/list', {
+            params: { page: currentPage.value, pageSize },
+        });
+        posts.value = [...posts.value, ...data.value];
         currentPage.value++;
     } catch (err) {
         error.value = err.message;
@@ -37,7 +38,6 @@ const loadMorePosts = async () => {
     }
 };
 
-// 初始化加载第一页
 loadMorePosts();
 </script>
 
@@ -67,7 +67,7 @@ loadMorePosts();
             <v-btn color="primary" @click="loadMorePosts" :loading="loading">加载更多</v-btn>
         </div>
     </div>
-        <div v-else>
-            <v-skeleton-loader type="article"></v-skeleton-loader>
-        </div>
+    <div v-else>
+        <v-skeleton-loader type="article"></v-skeleton-loader>
+    </div>
 </template>

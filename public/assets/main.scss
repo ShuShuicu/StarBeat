@@ -16,3 +16,18 @@ a, a:hover {
     color: unset;
     text-decoration: unset;
 }
+
+.StarBeatTypo {
+    font-size: 17px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    position: relative;
+    padding: 16px;
+    line-height: 24px;
+}
+.StarBeatTypo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
