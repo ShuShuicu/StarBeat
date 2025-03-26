@@ -1,10 +1,11 @@
 export default defineEventHandler(async (event) => {
+    const { public: { baseURL } } = useRuntimeConfig();
     const query = getQuery(event);
     const { cid } = query;
 
     try {
         const response = await $fetch(`/post?cid=${cid}`, {
-            baseURL: 'https://api-v2.x-x.work/web/blog',
+            baseURL,
         });
 
         if (response.status === 'success') {

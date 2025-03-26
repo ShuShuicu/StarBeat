@@ -1,10 +1,11 @@
 export default defineEventHandler(async (event) => {
+    const { public: { baseURL } } = useRuntimeConfig();
     const query = getQuery(event);
     const { page = 1, pageSize = 10, filterType, filterSlug, showContent, showDigest, limit } = query;
 
     try {
         const response = await $fetch('/posts', {
-            baseURL: 'https://api-v2.x-x.work/web/blog',
+            baseURL,
             params: {
                 page,
                 pageSize,
