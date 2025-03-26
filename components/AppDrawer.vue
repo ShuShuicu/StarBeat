@@ -47,7 +47,7 @@ const listItems = [
       <div class="pa-2">
         <a href="https://beian.miit.gov.cn/" target="_blank" rel="external nofollow noopener">
           <v-btn block>
-            鲁ICP备2023052135号-2
+            鲁ICP备2023052135号
           </v-btn>
         </a>
       </div>

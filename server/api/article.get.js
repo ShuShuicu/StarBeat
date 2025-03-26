@@ -1,13 +1,10 @@
-import { useRuntimeConfig } from '#app'
-
 export default defineEventHandler(async (event) => {
-    const config = useRuntimeConfig()
     const query = getQuery(event);
     const { cid } = query;
 
     try {
         const response = await $fetch(`/post?cid=${cid}`, {
-            baseURL: config.public.baseURL,
+            baseURL: 'https://api-v2.x-x.work/web/blog',
         });
 
         if (response.status === 'success') {
