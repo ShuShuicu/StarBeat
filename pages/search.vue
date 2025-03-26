@@ -55,14 +55,19 @@ const performSearch = async () => {
 
 <template>
     <v-card style="margin-bottom: 10px;">
-        <v-text-field
+        <v-card-actions>
+            <v-text-field
             v-model="searchQuery"
             :rules="rules"
             hide-details="auto"
             label="输入关键词..."
             @keyup.enter="performSearch"
         ></v-text-field>
-        <v-btn color="primary" @click="performSearch" :loading="loading">搜索</v-btn>
+
+      <v-btn color="primary" @click="performSearch" :loading="loading">搜索</v-btn>
+    </v-card-actions>
+
+        
     </v-card>
 
     <div v-if="error">
