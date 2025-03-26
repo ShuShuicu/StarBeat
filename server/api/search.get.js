@@ -1,10 +1,13 @@
+import { useRuntimeConfig } from '#app'
+
 export default defineEventHandler(async (event) => {
+    const config = useRuntimeConfig()
     const query = getQuery(event);
     const { page = 1, pageSize = 10, filterType, filterSlug, showContent, showDigest, limit } = query;
 
     try {
         const response = await $fetch('/posts', {
-            baseURL: process.env.BASE_URL, // 使用环境变量
+            baseURL: config.public.baseURL,
             params: {
                 page,
                 pageSize,

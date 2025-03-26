@@ -1,10 +1,13 @@
+import { useRuntimeConfig } from '#app'
+
 export default defineEventHandler(async (event) => {
+    const config = useRuntimeConfig()
     const query = getQuery(event);
     const { cid } = query;
 
     try {
         const response = await $fetch(`/post?cid=${cid}`, {
-            baseURL: process.env.BASE_URL, // 使用环境变量
+            baseURL: config.public.baseURL,
         });
 
         if (response.status === 'success') {
