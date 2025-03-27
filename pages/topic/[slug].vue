@@ -86,7 +86,7 @@ watch(
         <p>{{ error }}</p>
     </div>
     <div v-else-if="posts.length > 0">
-        <NuxtLink v-for="post in posts" :key="post.slug" :to="`/article/${post.slug}`">
+        <NuxtLink v-for="post in posts" :key="post.slug" :to="`/article/${post.cid}`">
             <v-card class="mx-auto" style="margin-bottom: 10px;" hover>
                 <v-card-item>
                     <v-card-title>
