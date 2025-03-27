@@ -56,18 +56,11 @@ const performSearch = async () => {
 <template>
     <v-card style="margin-bottom: 10px;">
         <v-card-actions>
-            <v-text-field
-            v-model="searchQuery"
-            :rules="rules"
-            hide-details="auto"
-            label="输入关键词..."
-            @keyup.enter="performSearch"
-        ></v-text-field>
+            <v-text-field v-model="searchQuery" :rules="rules" hide-details="auto" label="输入关键词..."
+                @keyup.enter="performSearch"></v-text-field>
 
-      <v-btn color="primary" @click="performSearch" :loading="loading">搜索</v-btn>
-    </v-card-actions>
-
-        
+            <v-btn color="primary" @click="performSearch" :loading="loading">搜索</v-btn>
+        </v-card-actions>
     </v-card>
 
     <div v-if="error">
@@ -95,5 +88,8 @@ const performSearch = async () => {
     </div>
     <div v-else-if="loading">
         <v-skeleton-loader type="article"></v-skeleton-loader>
+    </div>
+    <div v-else>
+        <SearchCategories />
     </div>
 </template>

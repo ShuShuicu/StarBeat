@@ -10,7 +10,6 @@ const toggleDrawer = () => {
 const listItems = [
   { title: 'Home', icon: 'mdi-home', link: '/' },
   { title: 'About', icon: 'mdi-account', link: '/about' },
-  { title: 'Topics', icon: 'mdi-post', link: '/topic'},
   { title: 'Search', icon: 'mdi-magnify', link: '/search' },
 ];
 </script>
