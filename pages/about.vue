@@ -1,12 +1,19 @@
 <script setup>
-useHead({
-    title: '关于',
-    titleTemplate: '%s - 鼠子Blog',
-    meta: [
-        { name: 'keywords', content: '鼠子, ShuShuicu, Tomori' },
-        { name: 'description', content: '关于鼠子的一些介绍' },
-    ],
-})
+import { useHead } from '#imports';
+
+// 提取SEO配置到公共函数
+const useSeo = (title, description, keywords) => {
+    useHead({
+        title,
+        titleTemplate: '%s - 鼠子Blog',
+        meta: [
+            { name: 'keywords', content: keywords },
+            { name: 'description', content: description },
+        ],
+    });
+};
+
+useSeo('关于', '关于鼠子的一些介绍', '鼠子, ShuShuicu, Tomori');
 
 const messages = [
     {
@@ -16,7 +23,7 @@ const messages = [
         message: '轻音少女粉丝网站',
         github: 'https://github.com/ShuShuicu/KonFans',
     }
-]
+];
 </script>
 
 <template>

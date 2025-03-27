@@ -2,38 +2,43 @@
 import { ref } from 'vue';
 import { useHead } from '#imports';
 
+// 提取SEO配置到公共函数
+const useSeo = (title, description, keywords) => {
+    useHead({
+        title,
+        titleTemplate: '%s - 鼠子Blog',
+        meta: [
+            { name: 'keywords', content: keywords },
+            { name: 'description', content: description },
+        ],
+    });
+};
+
+useSeo('搜索', '鼠子の个人Blog, 分享经验记录生活。', '鼠子Blog, 技术, Vue, Nuxt, php, Typecho, WordPress');
+
 const rules = [
     (v) => !!v || '请输入关键词',
     (v) => (v && v.length <= 20) || 'Max 20 characters',
 ];
 
-useHead({
-    title: '搜索',
-    titleTemplate: '%s - 鼠子Blog',
-    meta: [
-        { name: 'keywords', content: '鼠子Blog, 技术, Vue, Nuxt, php, Typecho, WordPress' },
-        { name: 'description', content: '鼠子の个人Blog, 分享经验记录生活。' },
-    ],
-});
-
 const searchQuery = ref('');
-const searchResults = ref([]); // 初始化为空数组
+const searchResults = ref([]);
 const loading = ref(false);
 const error = ref(null);
-const hasSearched = ref(false); // 新增标志位，标识是否执行过搜索
+const hasSearched = ref(false);
 
 // 执行搜索
 const performSearch = async () => {
     if (!searchQuery.value) {
-        error.value = null; // 清空错误状态
-        searchResults.value = []; // 清空搜索结果
-        hasSearched.value = false; // 未执行搜索
+        error.value = null;
+        searchResults.value = [];
+        hasSearched.value = false;
         return;
     }
 
     loading.value = true;
     error.value = null;
-    hasSearched.value = true; // 标识已执行搜索
+    hasSearched.value = true;
 
     try {
         const { data } = await useFetch('/api/search', {
@@ -44,9 +49,9 @@ const performSearch = async () => {
                 limit: 150,
             },
         });
-        searchResults.value = data.value || []; // 如果 data.value 为 null 或 undefined，设置为空数组
+        searchResults.value = data.value || [];
     } catch (err) {
-        error.value = err.message;
+        error.value = err.message || '搜索失败，请稍后重试。';
     } finally {
         loading.value = false;
     }
@@ -58,13 +63,12 @@ const performSearch = async () => {
         <v-card-actions>
             <v-text-field v-model="searchQuery" :rules="rules" hide-details="auto" label="输入关键词..."
                 @keyup.enter="performSearch"></v-text-field>
-
             <v-btn color="primary" @click="performSearch" :loading="loading">搜索</v-btn>
         </v-card-actions>
     </v-card>
 
     <div v-if="error">
-        <p>搜索失败：{{ error }}</p>
+        <p>{{ error }}</p>
     </div>
     <div v-else-if="hasSearched && searchResults.length > 0">
         <NuxtLink v-for="post in searchResults" :key="post.cid" :to="`/article/${post.cid}`">

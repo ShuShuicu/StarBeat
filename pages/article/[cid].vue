@@ -6,11 +6,22 @@ import * as Prism from 'prismjs';
 import 'prismjs/themes/prism-okaidia.min.css';
 import { nextTick } from 'vue';
 
+// 提取SEO配置到公共函数
+const useSeo = (title, description, keywords) => {
+    useHead({
+        title,
+        titleTemplate: '%s - 鼠子Blog',
+        meta: [
+            { name: 'keywords', content: keywords },
+            { name: 'description', content: description },
+        ],
+    });
+};
+
 definePageMeta({
-    ssr: true, // 指定该页面支持服务端渲染
+    ssr: true,
 });
 
-// 获取路由和参数
 const route = useRoute();
 const router = useRouter();
 const cid = route.params.cid;
@@ -23,21 +34,18 @@ const { data: article, error } = await useAsyncData(`article-${cid}`, () =>
 // 处理错误
 watch(error, (newError) => {
     if (newError?.message === '500') {
-        router.push('/error'); // 跳转到 /error 页面
+        router.push('/error');
     }
 }, { immediate: true });
 
 // 动态设置 SEO 信息
 watch(article, (newArticle) => {
     if (newArticle) {
-        useHead({
-            title: `${newArticle.title}`,
-            titleTemplate: '%s - 鼠子Blog',
-            meta: [
-                { name: 'keywords', content: `${newArticle.categories.map(cat => cat.name).join(', ')}` },
-                { name: 'description', content: newArticle.digest.replace(/<[^>]*>/g, '').substring(0, 150) },
-            ],
-        });
+        useSeo(
+            newArticle.title,
+            newArticle.digest.replace(/<[^>]*>/g, '').substring(0, 150),
+            newArticle.categories.map(cat => cat.name).join(', ')
+        );
     }
 }, { immediate: true });
 
@@ -54,7 +62,7 @@ const highlightCode = async () => {
     if (process.client && window.Prism) {
         window.Prism.highlightAll();
     }
-}
+};
 
 // 监听 article 变化，重新高亮代码
 watch(article, highlightCode);
@@ -73,8 +81,7 @@ onMounted(highlightCode);
                 {{ formattedDate }} · {{article.categories.map(cat => cat.name).join(', ')}}
             </template>
             <v-card-text>
-                <div class="StarBeatTypo" v-html="article.text">
-                </div>
+                <div class="StarBeatTypo" v-html="article.text"></div>
                 <div class="content-ds">
                     <p><span>© 转载请保留原链接</span></p>
                     <div class="content-ds-button">

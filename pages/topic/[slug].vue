@@ -3,6 +3,18 @@ import { ref, watch } from 'vue';
 import { useRoute } from 'vue-router';
 import { useHead } from '#imports';
 
+// 提取SEO配置到公共函数
+const useSeo = (title, description, keywords) => {
+    useHead({
+        title,
+        titleTemplate: '%s - 鼠子Blog',
+        meta: [
+            { name: 'keywords', content: keywords },
+            { name: 'description', content: description },
+        ],
+    });
+};
+
 definePageMeta({
     ssr: true,
 });
@@ -22,17 +34,15 @@ const { data: categoryData } = await useFetch(`/api/category?slug=${slug}`);
 // 动态设置 SEO 信息
 watch(categoryData, (newCategoryData) => {
     if (newCategoryData) {
-        useHead({
-            title: newCategoryData.name,
-            titleTemplate: '%s - 鼠子Blog',
-            meta: [
-                { name: 'keywords', content: newCategoryData.name },
-                { name: 'description', content: newCategoryData.description },
-            ],
-        });
+        useSeo(
+            newCategoryData.name,
+            newCategoryData.description,
+            newCategoryData.name
+        );
     }
 }, { immediate: true });
 
+// 加载更多文章
 const loadMorePosts = async () => {
     if (loading.value) return;
     loading.value = true;
@@ -50,14 +60,16 @@ const loadMorePosts = async () => {
         posts.value = [...posts.value, ...(data.value || [])];
         page.value++;
     } catch (err) {
-        error.value = err.message;
+        error.value = err.message || '加载文章失败，请稍后重试。';
     } finally {
         loading.value = false;
     }
 };
 
+// 初始化加载文章
 loadMorePosts();
 
+// 监听 slug 变化，重新加载文章
 watch(
     () => route.params.slug,
     (newSlug) => {
@@ -71,7 +83,7 @@ watch(
 
 <template>
     <div v-if="error">
-        <p>Failed to load posts. Please try again later.</p>
+        <p>{{ error }}</p>
     </div>
     <div v-else-if="posts.length > 0">
         <NuxtLink v-for="post in posts" :key="post.slug" :to="`/article/${post.slug}`">

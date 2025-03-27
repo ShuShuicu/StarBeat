@@ -2,17 +2,22 @@
 import { ref } from 'vue';
 import { useHead } from '#imports';
 
+// 提取SEO配置到公共函数
+const useSeo = (title, description, keywords) => {
+    useHead({
+        title,
+        titleTemplate: '%s - 忘れてやらない',
+        meta: [
+            { name: 'keywords', content: keywords },
+            { name: 'description', content: description },
+        ],
+    });
+};
+
+useSeo('鼠子Blog', '鼠子の个人Blog, 分享经验记录生活。', '鼠子Blog, 技术, Vue, Nuxt, php, Typecho, WordPress');
+
 definePageMeta({
     ssr: true,
-});
-
-useHead({
-    title: '鼠子Blog',
-    titleTemplate: '%s - 忘れてやらない',
-    meta: [
-        { name: 'keywords', content: '鼠子Blog, 技术, Vue, Nuxt, php, Typecho, WordPress' },
-        { name: 'description', content: '鼠子の个人Blog, 分享经验记录生活。' },
-    ],
 });
 
 const currentPage = ref(1);
@@ -20,6 +25,8 @@ const pageSize = 5;
 const posts = ref([]);
 const loading = ref(false);
 const error = ref(null);
+
+// 加载更多文章
 const loadMorePosts = async () => {
     if (loading.value) return;
     loading.value = true;
@@ -31,18 +38,19 @@ const loadMorePosts = async () => {
         posts.value = [...posts.value, ...data.value];
         currentPage.value++;
     } catch (err) {
-        error.value = err.message;
+        error.value = err.message || '加载文章失败，请稍后重试。';
     } finally {
         loading.value = false;
     }
 };
 
+// 初始化加载文章
 loadMorePosts();
 </script>
 
 <template>
     <div v-if="error">
-        <p>Failed to load posts. Please try again later.</p>
+        <p>{{ error }}</p>
     </div>
     <div v-else-if="posts.length > 0">
         <NuxtLink v-for="post in posts" :key="post.cid" :to="`/article/${post.cid}`">
@@ -51,12 +59,10 @@ loadMorePosts();
                     <v-card-title>
                         {{ post.title }}
                     </v-card-title>
-
                     <v-card-subtitle>
                         {{ post.formattedDate }}
                     </v-card-subtitle>
                 </v-card-item>
-
                 <v-card-text>
                     {{ post.digest }}...
                 </v-card-text>
