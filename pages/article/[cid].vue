@@ -70,17 +70,17 @@ onMounted(highlightCode);
     <div v-else-if="article">
         <v-card :title="article.title">
             <template #subtitle>
-                {{ formattedDate }} · {{ article.categories.map(cat => cat.name).join(', ') }}
+                {{ formattedDate }} · {{article.categories.map(cat => cat.name).join(', ')}}
             </template>
             <v-card-text>
-                <div
-                    class="StarBeatTypo"
-                    v-html="article.text">
+                <div class="StarBeatTypo" v-html="article.text">
                 </div>
-                <div class="separator">THE END</div>
-                <div>
-                    <div><span>©</span> 版权声明</div>
-                    <div>分享是一种美德，转载请保留原链接</div>
+                <div class="content-ds">
+                    <p><span>© 转载请保留原链接</span></p>
+                    <div class="content-ds-button">
+                        <BiliPay />
+                    </div>
+                    <div class="content-ds-count"><span>还没有人充电，快来当第一个充电的人吧！</span></div>
                 </div>
             </v-card-text>
         </v-card>
@@ -106,5 +106,31 @@ onMounted(highlightCode);
     height: 1px;
     margin: 0 1em;
     flex: 1;
+}
+
+.content-ds {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 3px;
+    position: relative;
+    background: #484848;
+}
+.content-ds-count {
+    font-size: 12px;
+    margin: 17px 0 5px;
+}
+.content-ds-button {
+    position: absolute;
+    right: 20px;
+    top: 8px;
+}
+@media screen and (max-width: 768px) {
+    .content-ds-button {
+        top: 0;
+        margin-top: 2em;
+    }
 }
 </style>
