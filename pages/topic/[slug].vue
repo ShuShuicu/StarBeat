@@ -7,15 +7,6 @@ definePageMeta({
     ssr: true,
 });
 
-useHead({
-    title: '鼠子Blog',
-    titleTemplate: '%s - 忘れてやらない',
-    meta: [
-        { name: 'keywords', content: '鼠子Blog, 技术, Vue, Nuxt, php, Typecho, WordPress' },
-        { name: 'description', content: '鼠子の个人Blog, 分享经验记录生活。' },
-    ],
-});
-
 const route = useRoute();
 const slug = route.params.slug;
 
@@ -24,6 +15,23 @@ const pageSize = ref(5);
 const posts = ref([]);
 const loading = ref(false);
 const error = ref(null);
+
+// 获取分类信息
+const { data: categoryData } = await useFetch(`/api/category?slug=${slug}`);
+
+// 动态设置 SEO 信息
+watch(categoryData, (newCategoryData) => {
+    if (newCategoryData) {
+        useHead({
+            title: newCategoryData.name,
+            titleTemplate: '%s - 鼠子Blog',
+            meta: [
+                { name: 'keywords', content: newCategoryData.name },
+                { name: 'description', content: newCategoryData.description },
+            ],
+        });
+    }
+}, { immediate: true });
 
 const loadMorePosts = async () => {
     if (loading.value) return;
