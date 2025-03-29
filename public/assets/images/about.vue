@@ -6,7 +6,7 @@ import { useHead } from '#imports';
 const useSeo = (title, description, keywords) => {
     useHead({
         title,
-        titleTemplate: '%s - 鼠子Blog',
+        titleTemplate: '%s - 个人介绍',
         meta: [
             { name: 'keywords', content: keywords },
             { name: 'description', content: description },
@@ -14,7 +14,7 @@ const useSeo = (title, description, keywords) => {
     });
 };
 
-useSeo('关于', '关于鼠子的一些介绍', '鼠子, ShuShuicu, Tomori');
+useSeo('关于鼠子', '关于鼠子的一些介绍', '鼠子, ShuShuicu, Tomori');
 
 // 定义仓库列表、错误信息和加载状态
 const repos = ref([]);
@@ -48,7 +48,7 @@ onMounted(fetchRepos);
 
 <template>
     <v-card class="mx-auto">
-        <v-img class="align-end text-white" height="270" src="/assets/aboutBack.webp" cover>
+        <v-img class="align-end text-white" height="270" src="/assets/images/aboutBack.webp" cover>
             <v-card-title>About Me</v-card-title>
         </v-img>
 

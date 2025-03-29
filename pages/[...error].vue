@@ -19,7 +19,7 @@ useSeo('出错啦', '这个页面走丢了哦~', '鼠子Blog');
 
 <template>
     <v-card>
-        <v-img src="/assets/very_sorry.png" cover></v-img>
+        <v-img src="/assets/images/very_sorry.png" cover></v-img>
         <v-card-text class="text-center">
             <v-btn color="primary" to="/">返回首页</v-btn>
         </v-card-text>

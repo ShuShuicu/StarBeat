@@ -43,7 +43,12 @@ export default defineNuxtConfig({
       title: '鼠子Blog',
       titleTemplate: '%s - 鼠子Blog',
       link: [
-        { rel: 'icon', type: 'image/svg+xml', href: '/assets/Kasumi.svg' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/assets/images/Kasumi.svg' },
+      ],
+      script: [
+        {
+          src: '/assets/main.js',
+        }
       ],
     }
   },

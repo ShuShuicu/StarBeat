@@ -54,10 +54,10 @@ const dialog = ref(false)
     </div>
 
     <v-dialog v-model="dialog" width="auto">
-        <v-card width="400" prepend-icon="mdi-battery-charging"
+        <v-card class="BiliPayCard" prepend-icon="mdi-battery-charging"
             title="为 鼠子 的创作充电">
             <template #text>
-                <v-img src="/assets/WeChatPay.webp" />
+                <v-img src="/assets/images/WeChatPay.webp" />
             </template>
             <template v-slot:actions>
                 <v-btn class="ms-auto" text="Ok" @click="dialog = false"></v-btn>
@@ -67,6 +67,14 @@ const dialog = ref(false)
 </template>
 
 <style scoped>
+.BiliPayCard {
+    width: 400px;
+}
+@media screen and (max-width: 768px) {
+    .BiliPayCard {
+        width: 340px;
+    }
+}
 /* 设置白色容器 */
 #con {
     width: 100%;
