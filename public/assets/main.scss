@@ -1,0 +1,78 @@
+// 定义变量
+$background-color: #ffffff;
+$primary-color: #29d;
+$code-background: rgba(150, 150, 150, 0.06);
+$code-border-color: rgba(100, 100, 100, 0.2);
+$code-font-size: 90%;
+$code-padding-inline: 0.4em;
+$code-padding-block: 0.15em 0.1em;
+$code-border-radius: 3px;
+
+// 混合宏
+@mixin responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@mixin code-style($background, $border-color, $font-size, $padding-inline, $padding-block, $border-radius) {
+    margin: 0 0.2em;
+    padding-inline: $padding-inline;
+    padding-block: $padding-block;
+    font-size: $font-size;
+    background: $background;
+    border: 1px solid $border-color;
+    border-bottom-width: 2px;
+    border-radius: $border-radius;
+}
+
+body {
+    background: url(images/background.webp) no-repeat 0 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.StarBeatContent {
+    max-width: 85%;
+    padding: 20px 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+a, a:hover {
+    color: unset;
+    text-decoration: unset;
+}
+
+.StarBeatTypo {
+    font-size: 17px;
+    line-height: 1.8;
+    word-wrap: break-word;
+    position: relative;
+    padding: 16px;
+
+    img {
+        @include responsive-image;
+    }
+
+    a:link {
+        color: $primary-color;
+        text-decoration: none;
+    }
+
+    code {
+        @include code-style($code-background, $code-border-color, $code-font-size, $code-padding-inline, $code-padding-block, $code-border-radius);
+    }
+}
+
+code[class*=language-],
+pre[class*=language-] {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    background: none;
+    border: none;
+    border-bottom-width: 0;
+    border-radius: 0;
+}

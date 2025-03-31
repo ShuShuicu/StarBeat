@@ -1,0 +1,45 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "star": "nuxt dev",
+    "beat": "nuxt build"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxt/scripts": "^0.11.5",
+    "@nuxtjs/auth-next": "^5.0.0-1667386184.dfbbb54",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/seo": "^3.0.1",
+    "@nuxtjs/sitemap": "^7.2.9",
+    "@octokit/rest": "^21.1.1",
+    "@unhead/vue": "^2.0.2",
+    "axios": "^1.8.4",
+    "babel-plugin-component": "^1.1.1",
+    "gitment": "^0.0.3",
+    "nprogress": "^0.2.0",
+    "nuxt": "^3.16.1",
+    "prismjs": "^1.30.0",
+    "viewerjs": "^1.11.7",
+    "vite-plugin-prismjs": "^0.0.11",
+    "vue": "^3.5.13",
+    "vue-easy-lightbox": "^1.19.0",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/nprogress": "^0.2.3",
+    "@types/prismjs": "^1.26.5",
+    "less": "^4.2.2",
+    "less-loader": "^12.2.0",
+    "sass": "^1.86.0",
+    "sass-loader": "^16.0.5",
+    "vite-plugin-vuetify": "^2.1.0",
+    "vuetify": "^3.7.18"
+  }
+}
