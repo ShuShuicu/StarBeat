@@ -6,7 +6,7 @@ import { useHead, useRoute } from '#imports';
 const useSeo = (title, description, keywords) => {
     useHead({
         title,
-        titleTemplate: '%s - 鼠子Blog',
+        titleTemplate: '%s - StarBeat~',
         meta: [
             { name: 'keywords', content: keywords },
             { name: 'description', content: description },
@@ -14,7 +14,7 @@ const useSeo = (title, description, keywords) => {
     });
 };
 
-useSeo('搜索', '鼠子の个人Blog, 分享经验记录生活。', '鼠子Blog, 技术, Vue, Nuxt, php, Typecho, WordPress');
+useSeo('搜索', '一个运行在StarBeat系统的高质量Blog~', '博客, 技术, 男娘');
 
 const rules = [
     (v) => !!v || '请输入关键词',

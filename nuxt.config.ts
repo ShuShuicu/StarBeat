@@ -34,8 +34,8 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'zh-CN',
       },
-      title: '鼠子Blog',
-      titleTemplate: '%s - 鼠子Blog',
+      title: 'StarBeat', // 默认网站标题
+      titleTemplate: '%s - StarBeat', // 默认网站标题模板
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/assets/images/Kasumi.svg' },
       ],

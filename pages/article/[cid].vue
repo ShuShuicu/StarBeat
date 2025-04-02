@@ -8,7 +8,7 @@ import { nextTick } from 'vue';
 const useSeo = (title, description, keywords) => {
     useHead({
         title,
-        titleTemplate: '%s - 鼠子Blog',
+        titleTemplate: '%s - StarBeat~',
         meta: [
             { name: 'keywords', content: keywords },
             { name: 'description', content: description },

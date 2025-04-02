@@ -12,7 +12,6 @@ const toggleDrawer = () => {
 
 const listItems = [
   { title: 'Home', icon: 'mdi-home', link: '/' },
-  { title: 'About', icon: 'mdi-account', link: '/about' },
   { title: 'Search', icon: 'mdi-magnify', link: '/search' },
 ];
 
@@ -76,7 +75,7 @@ const handleSearch = () => {
       <div class="pa-2">
         <a href="https://beian.miit.gov.cn/" target="_blank" rel="external nofollow noopener">
           <v-btn block>
-            鲁ICP备2023052135号
+            下北泽ICP备114514号
           </v-btn>
         </a>
       </div>

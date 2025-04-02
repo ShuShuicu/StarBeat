@@ -6,7 +6,7 @@ import { useHead } from '#imports';
 const useSeo = (title, description, keywords) => {
     useHead({
         title,
-        titleTemplate: '%s - 忘れてやらない',
+        titleTemplate: '%s - 星之鼓动~',
         meta: [
             { name: 'keywords', content: keywords },
             { name: 'description', content: description },
@@ -14,7 +14,7 @@ const useSeo = (title, description, keywords) => {
     });
 };
 
-useSeo('鼠子Blog', '鼠子の个人Blog, 分享经验记录生活。', '鼠子Blog, 技术, Vue, Nuxt, php, Typecho, WordPress');
+useSeo('StarBeat', '一个运行在StarBeat系统的高质量Blog~', '博客, 技术, 男娘');
 
 definePageMeta({
     ssr: true,
