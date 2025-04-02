@@ -31,7 +31,7 @@ const handleSearch = () => {
       <v-app-bar-nav-icon @click.stop="toggleDrawer"></v-app-bar-nav-icon>
     </template>
     <v-app-bar-title>
-      <router-link to="/">鼠子Blog</router-link>
+      <router-link to="/">StarBeat~</router-link>
     </v-app-bar-title>
     <template v-slot:append>
       <a href="https://github.com/ShuShuicu/StarBeat" target="_blank">
